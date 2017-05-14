@@ -1,0 +1,7 @@
+08-May-15 11:21:51 PM	Error,[CreateMyAlbumXml]  [Subscript out of range]
+08-May-15 11:25:19 PM	Error,[CreateMyAlbumXml]  [Subscript out of range]
+09-May-15 10:38:24 AM	Error,[CreateMyAlbumXml]  [Subscript out of range]
+09-May-15 10:54:25 AM	Error,[CreateMyAlbumXml]  [Subscript out of range]
+09-May-15 10:56:25 AM	Error,[CreateMyAlbumXml]  [Subscript out of range]
+10-May-15 10:19:37 AM	Error,[CreateMyAlbumXml]  [Subscript out of range]
+10-May-15 10:19:37 AM	Error,[KeyboardProc]  []

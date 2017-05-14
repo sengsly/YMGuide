@@ -1,0 +1,5 @@
+05-Jul-15 10:09:14 AM	ERROR,[ReceivedServer] Subscript out of range [Index = 1, dataCommand= 7, dataReceived = ]
+05-Jul-15 10:47:59 AM	ERROR,[ReceivedServer] Subscript out of range [Index = 1, dataCommand= 7, dataReceived = ]
+05-Jul-15 10:56:02 AM	ERROR,[ReceivedServer] Subscript out of range [Index = 1, dataCommand= 7, dataReceived = ]
+05-Jul-15 12:50:34 PM	ERROR,[ReceivedServer] Subscript out of range [Index = 1, dataCommand= 7, dataReceived = ]
+05-Jul-15 12:54:50 PM	Error,[SendCopy]  [Type mismatch]

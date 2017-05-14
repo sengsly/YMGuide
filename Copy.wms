@@ -1,0 +1,157 @@
+<THEME>
+
+
+	<VIEW
+		titleBar = "false"
+		height = "400"
+		width = "600"
+		timerInterval="100"
+		scriptFile = "copy.js;functions.js"
+		onLoad = "Jscript: player.settings.autoStart = 'False';Plays.playlist=player.cdromCollection.Item(CDROMIndex).Playlist"
+		onTimer= "JScript:if ((Plays.Copying + isCopyingCD) == 10) {player.cdromcollection.item(CDROMIndex).eject();view.close()};if (start==0){CheckiT() ;start=1;Plays.Copy();isCopyingCD=10}"
+
+	>
+
+	<TEXT
+            id = "tStatusTag"
+            left = "5"
+            top = "5"
+            width = "100"
+            justification = "right"
+            value = "Current status:"
+            />
+
+        <STATUSTEXT
+            left = "jscript:tStatusTag.left + tStatusTag.width + 10;"
+            top = "jscript:tStatusTag.top;"
+            width = "100"
+            justification = "left"
+            />
+
+       
+        <TEXT
+            id = "tTitleTag"
+            left = "jscript:tStatusTag.left"
+            top = "jscript:tStatusTag.top + 25"
+            width = "100"
+            justification = "right"
+            value = "Track title:"
+	    onClick = "JScript:Plays.setCheckedState2(1, 1);"
+            />
+
+        <TEXT
+            left = "jscript:tTitleTag.left + tTitleTag.width + 10;"
+            top = "jscript:tTitleTag.top;"
+            width = "100"
+            justification = "left"
+            value = "wmpprop:player.currentMedia.name"
+            />
+
+        <TEXT
+            id = "tPositionTag"
+            left = "jscript:tTitleTag.left"
+            top = "jscript:tTitleTag.top + 25"
+            width = "100"
+            justification = "right"
+            value = "Current position:"
+            />
+
+        <CURRENTPOSITIONTEXT
+            left = "jscript:tPositionTag.left + tPositionTag.width + 10;"
+            top = "jscript:tPositionTag.top;"
+            width = "100"
+            justification = "left"
+            />
+
+
+		<TEXT 
+			top="5"
+			Left="-50"
+			width = "600"
+			fontSize = "15"
+			hoverFontStyle = "Bold"
+			hoverForegroundColor = "red"
+			disabledForegroundColor = "#CCCCCC"
+			justification = "Center"
+			value = "Play"
+			cursor = "hand"
+			enabled = "wmpenabled:player.controls.play"
+			onClick = "JScript: player.controls.play();"
+		/>
+		
+
+		<TEXT
+			left= "50"
+			top = "5"
+			width = "600"
+			fontSize = "15"
+			hoverFontStyle = "Bold"
+			hoverForegroundColor = "red"
+			justification = "Center"
+			disabledForegroundColor = "#CCCCCC"
+			value = "Stop"
+			cursor = "hand"
+			enabled = "wmpenabled:player.controls.stop"
+			onClick = "JScript: player.controls.stop();"
+		/>
+
+
+		<TEXT
+			top = "5"
+			left = "260"
+			width = "600"
+			fontSize = "15"
+			hoverFontStyle = "Bold"
+			hoverForegroundColor = "red"
+			justification = "Center"
+			value = "Close"
+			cursor = "hand"
+			onClick = "JScript: view.close();"
+		/>
+
+
+		<TEXT
+			top = "35"
+			width = "600"
+			fontSize = "15"
+			hoverFontStyle = "Bold"
+			hoverForegroundColor = "red"
+			justification = "Center"
+			value = "Playlist"
+			toolTip = "toggle playlist"
+			cursor = "hand"
+			onClick = "JScript: if (view.height==100) {view.height='400'} else {view.height='100'};"
+		/>
+
+
+		<TEXT 
+			Top="60"
+			width = "600"
+			fontSize = "24"
+			hoverFontStyle = "Bold"
+			hoverForegroundColor = "red"
+			disabledForegroundColor = "#CCCCCC"
+			justification = "Center"
+			value = "Copy CD"
+			cursor = "hand"
+			onClick = "Plays.Copy();isCopyingCD=10"
+		/>
+		<PLAYLIST
+			top = "100"
+			width = "600"
+			height = "300"
+			backgroundColor = "black"
+			foregroundColor = "white"
+			itemPlayingColor = "blue"
+			itemPlayingBackgroundColor = "white"
+			dropDownList="showCD"
+			columns = "tracknumber=#;name=Title;status=CD Copy Status;artist=Artist;duration=Length"
+			checkboxesVisible = "true"
+			statusColor= "Red"
+			id = "Plays"
+			
+		/>
+
+
+	</VIEW>
+</THEME>

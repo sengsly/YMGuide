@@ -1,0 +1,6 @@
+28-Feb-16 1:59:10 PM	Error,[inetDownload_StateChanged]  [Path not found]
+28-Feb-16 1:59:14 PM	Error,[inetDownload_StateChanged]  [Path not found]
+28-Feb-16 1:59:17 PM	Error,[inetDownload_StateChanged]  [Type mismatch]
+28-Feb-16 1:59:19 PM	Error,[inetDownload_StateChanged]  [Type mismatch]
+28-Feb-16 1:59:22 PM	Error,[inetDownload_StateChanged]  [Type mismatch]
+28-Feb-16 10:11:49 PM	Error,[ReplaceStrSpl]  [Subscript out of range]

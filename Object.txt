@@ -1,0 +1,95 @@
+InterfaceCD  resultSearchTrack=con_ResultSearchTrack
+	this.trackNo = trackNo;
+	this.trackTitle = trackTitle;
+	this.unicodeTrackTitle = unicodeTrackTitle;
+	this.Rating = Rating;
+	this.Length = Length;
+	this.Mood = Mood;
+	this.unicodeMood = unicodeMood;
+	this.danceStyle = danceStyle;
+	this.unicodeDanceStyle = unicodeDanceStyle;
+	this.Artist = Artist;
+	this.unicodeArtist = unicodeArtist;
+	this.trackID = trackID;
+	this.LanTrack=LanTrack;
+	this.ComName=ComName;		//ComName	variable from global
+	this.Ava=Ava;
+	this.walMart_Ava=walMart_Ava;
+	this.ShoppingID=ShoppingID;
+	this.ReservePath	=	"";
+	this.PathPic		=	PathPic;
+
+PlayListPlayer 
+
+	resultSearch =	con_ResultSearch
+
+	this.trackTitle 
+	this.unicodeTrackTitle 
+	this.Artist 
+	this.unicodeArtist 
+	this.Album
+	this.unicodeAlbum 
+	this.Mood 
+	this.unicodeMood 
+	this.danceStyle 
+	this.unicodeDanceStyle 
+	this.Rating 
+	this.Genre 
+	this.unicodeGenre 
+	this.Mode 
+	this.trackID 
+	this.PathPic 
+	this.Lan 
+	this.ComName 
+	this.LanPath 
+	this.StPlayer
+	this.StringPath 
+	this.LanTrack 
+	this.RePathPic
+	this.YearTrack
+	this.Ava 
+	this.walMart_Ava 
+	this.ShoppingID 
+	this.NoTrack 
+	this.ReservePath 
+
+
+
+PlayListPage
+
+	resultSearch = new con_ResultSearch
+
+	this.trackTitle = trackTitle;
+	this.unicodeTrackTitle = unicodeTrackTitle;
+	this.Artist = Artist;
+	this.unicodeArtist = unicodeArtist;
+	this.Album = Album;
+	this.unicodeAlbum = unicodeAlbum;
+	this.Mood = Mood;
+	this.unicodeMood = unicodeMood;
+	this.danceStyle = danceStyle;
+	this.unicodeDanceStyle = unicodeDanceStyle;
+	this.Rating = Rating;
+	this.Genre = Genre;
+	this.unicodeGenre = unicodeGenre;
+	this.Mode=Mode;
+	this.trackID=trackID;
+	this.PathPic=PathPic;
+	this.Lan=Lan;
+	this.ComName=ComName;
+	this.AlbumID=AlbumID;
+	this.StPlayer=StPlayer;
+	this.RePathPic=RePathPic;
+	this.LanTrack=LanTrack;
+	this.YearTrack=YearTrack;
+	this.Ava=Ava;
+	if(walMart_Ava.length==0)walMart_Ava=0;
+	this.walMart_Ava=walMart_Ava;
+	this.ShoppingID=ShoppingID;
+	this.NoTrack=NoTrack;
+	this.ReservePath="";
+	this.ZoomLevel=ZoomLevel;
+	this.BlankTop=BlankTop;
+	this.BlankBottom=BlankBottom;
+}
+

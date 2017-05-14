@@ -1,0 +1,8 @@
+01-Mar-15 9:19:43 AM	Error,[CreateMyAlbumXml]  [Subscript out of range]
+01-Mar-15 9:19:55 AM	Error,[EditSetting]  [Object variable or With block variable not set]
+01-Mar-15 9:20:19 AM	Error,[CreateMyAlbumXml]  [Subscript out of range]
+08-Mar-15 10:25:50 PM	Error,[CreateMyAlbumXml]  [Subscript out of range]
+08-Mar-15 10:25:58 PM	Error,[EditSetting]  [Object variable or With block variable not set]
+08-Mar-15 10:26:11 PM	Error,[EditSetting]  [Object variable or With block variable not set]
+23-Mar-15 10:10:36 PM	INFO,[ScanHintTag] hintag xml not found so create new template [Country = Khmer Karaoke, Directory= C:\Program Files\YMGuide\Database\Khmer Karaoke\Database, File Path= C:\Program Files\YMGuide\Database\Khmer Karaoke\Database\searchtag.xml]
+23-Mar-15 10:11:45 PM	INFO,[ScanHintTag] hintag xml not found so create new template [Country = Khmer Karaoke, Directory= C:\Program Files\YMGuide\Database\Khmer Karaoke\Database, File Path= C:\Program Files\YMGuide\Database\Khmer Karaoke\Database\searchtag.xml]

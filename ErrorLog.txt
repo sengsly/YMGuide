@@ -1,0 +1,240 @@
+=====================Consummed : 16 minute(s)================
+=====================Time    5/17/2007 6:36:23 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = PlayIFO
+Description = Object variable or With block variable not set
+=====================Consummed : 16 minute(s)================
+=====================Time    5/17/2007 6:36:24 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = tmrFindTime_Timer
+Description = Object variable or With block variable not set
+=====================Consummed : 0 minute(s)================
+=====================Time    5/29/2007 10:14:34 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = FunOptions
+Description = Type mismatch
+=====================Consummed : 4 minute(s)================
+=====================Time    5/29/2007 7:38:06 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = FunOptions
+Description = Type mismatch
+=====================Consummed : 0 minute(s)================
+=====================Time    5/29/2007 7:47:50 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = FunOptions
+Description = Type mismatch
+=====================Consummed : 0 minute(s)================
+=====================Time    5/30/2007 6:40:06 PM=======================
+Module       = WINSOCK	WINSOCK
+Function     = Listen
+Description = Address in use
+=====================Consummed : 1 minute(s)================
+=====================Time    5/31/2007 10:16:37 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 1 minute(s)================
+=====================Time    7/5/2007 6:42:22 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = swfPopupFullPlayer_FSCommand
+Description = Invalid procedure call or argument
+=====================Consummed : 13 minute(s)================
+=====================Time    8/30/2007 4:09:40 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 3 minute(s)================
+=====================Time    8/30/2007 4:17:20 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = LoadSwfSettingPage
+Description = Object already loaded
+=====================Consummed : 3 minute(s)================
+=====================Time    8/30/2007 4:34:53 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 1 minute(s)================
+=====================Time    8/31/2007 9:29:32 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = swfPopupFullPlayer_FSCommand
+Description = Invalid procedure call or argument
+=====================Consummed : 2 minute(s)================
+=====================Time    8/31/2007 9:32:28 AM=======================
+Module       = 
+Function     = swfPopupFullPlayer_FSCommand
+Description = 
+=====================Consummed : 2 minute(s)================
+=====================Time    9/4/2007 9:09:13 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = LoadSwfSettingPage
+Description = Object already loaded
+=====================Consummed : 2 minute(s)================
+=====================Time    9/4/2007 9:09:19 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = LoadSwfSettingPage
+Description = Object already loaded
+=====================Consummed : 0 minute(s)================
+=====================Time    9/8/2007 11:36:12 AM=======================
+Module       = WINSOCK	WINSOCK
+Function     = Listen
+Description = Address in use
+=====================Consummed : 10 minute(s)================
+=====================Time    9/13/2007 11:02:13 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 0 minute(s)================
+=====================Time    9/15/2007 10:28:52 AM=======================
+Module       = 
+Function     = MountDaemonISO
+Description = 
+=====================Consummed : 0 minute(s)================
+=====================Time    9/15/2007 10:29:31 AM=======================
+Module       = WINSOCK	WINSOCK
+Function     = Listen
+Description = Address in use
+=====================Consummed : 14 minute(s)================
+=====================Time    10/1/2007 10:07:45 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = SearchPathImages
+Description = Overflow
+=====================Consummed : 14 minute(s)================
+=====================Time    10/1/2007 10:07:47 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = SearchPathImages
+Description = Overflow
+=====================Consummed : 4 minute(s)================
+=====================Time    10/2/2007 8:48:28 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = SearchPathImages
+Description = Overflow
+=====================Consummed : 5 minute(s)================
+=====================Time    10/2/2007 8:49:55 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = SearchPathImages
+Description = Overflow
+=====================Consummed : 8 minute(s)================
+=====================Time    10/2/2007 8:52:00 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 8 minute(s)================
+=====================Time    10/2/2007 8:52:04 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 10 minute(s)================
+=====================Time    10/2/2007 8:54:10 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 11 minute(s)================
+=====================Time    10/2/2007 8:55:02 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 12 minute(s)================
+=====================Time    10/2/2007 8:56:28 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 1 minute(s)================
+=====================Time    10/2/2007 8:59:24 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 2 minute(s)================
+=====================Time    10/2/2007 9:00:23 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 2 minute(s)================
+=====================Time    10/2/2007 9:00:43 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 2 minute(s)================
+=====================Time    10/2/2007 9:00:49 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 3 minute(s)================
+=====================Time    10/2/2007 9:01:27 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 3 minute(s)================
+=====================Time    10/2/2007 9:01:50 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 4 minute(s)================
+=====================Time    10/2/2007 9:02:51 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 6 minute(s)================
+=====================Time    10/2/2007 9:04:52 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 7 minute(s)================
+=====================Time    10/2/2007 9:05:59 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 8 minute(s)================
+=====================Time    10/2/2007 9:06:38 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 8 minute(s)================
+=====================Time    10/2/2007 9:06:42 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 9 minute(s)================
+=====================Time    10/2/2007 9:07:48 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = DownloadImage
+Description = Type mismatch
+=====================Consummed : 1 minute(s)================
+=====================Time    10/3/2007 8:49:01 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = SearchPathImages
+Description = Overflow
+=====================Consummed : 1 minute(s)================
+=====================Time    10/3/2007 8:50:01 AM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = SearchPathImages
+Description = Overflow
+=====================Consummed : 0 minute(s)================
+=====================Time    10/14/2007 10:22:48 PM=======================
+Module       = WINSOCK	WINSOCK
+Function     = Listen
+Description = Address in use
+=====================Consummed : 3 minute(s)================
+=====================Time    1/10/2008 6:04:01 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = MountDaemonISO
+Description = File not found Path = 
+=====================Consummed : 0 minute(s)================
+=====================Time    1/24/2008 9:14:38 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = LoadSwfSettingPage
+Description = Object already loaded
+=====================Consummed : 0 minute(s)================
+=====================Time    1/24/2008 9:14:39 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = LoadSwfSettingPage
+Description = Object already loaded
+=====================Consummed : 1 minute(s)================
+=====================Time    1/16/2009 11:30:00 PM=======================
+Module       = WINSOCK	WINSOCK
+Function     = Listen
+Description = Address in use
+=====================Consummed : 2 minute(s)================
+=====================Time    1/16/2009 11:35:14 PM=======================
+Module       = SLYGUIDE_NEWMODE
+Function     = GetImage
+Description = Bad file name or number

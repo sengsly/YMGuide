@@ -1,0 +1,7 @@
+<Banner ShowType="Shuffle" Height='15'>
+<Ads Start='5' Length='20'>C:\DVDs\Ads\Banner.swf</Ads>
+<Ads Start='10' Length='10'>C:\DVDs\Ads\02.swf</Ads>
+<Ads Start='10' Length='10'>C:\DVDs\Ads\03.swf</Ads>
+<Ads Start='10' Length='10'>C:\DVDs\Ads\05.swf</Ads>
+<Ads Start='10' Length='10'>C:\DVDs\Ads\17.swf</Ads>
+</Banner>

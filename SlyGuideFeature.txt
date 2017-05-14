@@ -1,0 +1,30 @@
+Search Page
+	+Search By Singer				x
+	+Search By DVD Title			x
+	+Search By TrackTitle			x
+	
+	+Filter
+		Countries				x
+		By Date/Alphabet			x
+		Available				x
+		Gender				x
+InterfaceCD
+OptionPage
+	+Theme
+		+Choose Color with keyboard
+	+Album
+	+Default Load
+	+Slide Show
+	+Profile
+	+Player
+SlideShow
+FullScreen
+CountryPage
+PlayLIstPlayerPage
+	+Album bar drop down menu, doesn't show unicode title		x
+PlayListPage
+RipCD
+*ScanFile
+
++Popup info playing track when in window mode, the bottom of the info is blocked
+

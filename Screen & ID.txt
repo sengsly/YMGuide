@@ -1,0 +1,17 @@
+WSH	1680x1050
+WSL	1280 x 1024
+WS	1280 x 720
+NS	1024x768
+WSM	1280x768
+
+
+
+Key ID for Each Language
+======================
+Khmer		001
+Vietnamese 	002
+English		003
+Chinese		004
+Japanese		005
+Korean		006
+Thai		007

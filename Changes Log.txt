@@ -1,0 +1,97 @@
+2015-02-13------------Changes Log
+
+
+Update fixed:  Testing with MPC-HC version 1.7.8
+===========
+
+1. Using MPC-HC API to control switch audio language
+2. Using MPC-HC API to control media seeking without losing focus 
+3. Using MPC-HC API to control volume changing, there is no direct method set the volume, so the trick is to reduce the volume to zero and increase the volume by command 5% each command to the required volume.
+4. Update to embed MPC-HC video in YMGuide.
+5. Add some debugging log to the code
+=======2015-02-16
+6. Cut to the track like before, for example if song is track #2, will show only the seek bar for the length of track #2, and play only that song.(bugs due to cannot read current chapters)
+=======2015-02-21
+7. Cutting the tracks works correctly part of the time, just need to make sure that BookmarkTime="Some Number" is calculated correctly for the chapter that is added to the queue.
+	(seem the current code don't have this function , as i remember this function already has)
+8. During playing in fullscreen mode, when play/pause, issue with slow video motion causing by changing video size.
+9. When play and pause if the Status bar is not visible, Play/Pause is not functioning well
+10. Lost focus during open new media file.
+=======2015-02-28
+- Create new build of YMGuide installer using Inno setup
+=======2015-03-01
+- When I check Fullscreen radio button, it installs but doesn't set it to fullscreen correctly, after I press Ctrl+W then it works fine.
+- For now remove the 90 second limit when in client/server mode, so can test client/server.  
+- If put the limit to 5 connections that would be great, for more then 5 connections user must register our software.
+- There is a client server error ReceivedServer Request File Not Found, I attached the error pop-up, I think its not finding a file, maybe its located somewhere else.  The client server was working before with our old installers, maybe have to use a common directory?
+=======2015-03-08
+-  Add MSWINSCK.OCX, MSINET.OCX, and COMDLG32.OCX in the installer package.
+- Check the potential default paths for MPC-HC.   If exist there, C:\Program Files\MPC-HC, C:\Program Files (x86)\MPC-HC
+- Some error running in Windows 7 - not sure what it is, so I'm trying to uninstall and re-install but seems to have same error, maybe need separate Installer for Windows 7 and Windows 8.1
+   I think the error I had before was due to the Playlist path, need to change the location due to name changed to YMGuide from SlyGuide
+- In full screen player page, sometimes the seek bar and volume does not hide after 5 seconds
+		Windows 7 always sending mouse move, so the we save old X and Y of the mouse, unless there is changes in mouse position.
+
+- Put the limit to 5 connections that would be great, for more then 5 connections user must register our software.
+- Remove the 90 second limit when in client/server mode, so can test client/server.  
+- The playlist files are saved & stored here for me(which is fine and works still, but when I click to save it, cause pop-up error 'subscript out of range'):  C:\Users\KHMERSLY\AppData\Local\VirtualStore\Program Files (x86)\Sly Multimedia\SlyGuide\PlayLists
+=======2015-04-12
+- Add Khmer OS Bokor to installer
+- Integrated Scan file into YMGuide ( flash interface need recompiled, but error..finding the issue, no need to change language, default to current language)
+- Fix fullscreen player video issue
+
+=======2015-04-26:
+
+- Add support unicode for adding external music files(not yet support browse folders)
+- Fix add server page input text keyboard shortcut issue
+- Fix audio switching twice when in clien/server mode
+- 
+=======2015-05-10:
+
+- Scan server automatically within current network by broadcasting to find sever
+=======2015-08-05:
+-Modify the Windows Socket Header to be 7-bit length for Android/Java
+=======2015-08-08:
+-Modify the Scan server discovery feature to compatible with Android/Java
+
+
+
+Known bugs:
+===========
+
+- MPC player cannot hide completely.
+- Need to improve on the audio counts when more than one audio track found.
+- Need to further test other functions, seems videos won't stream from server at this time.  I am using wifi, not sure that is the reason. 
+- Remove requirement for wmp.dll in case we are not using
+- Scrolling text on fullscreen player
+- need to Delete virtualstore cache.
+- problem sometimes adding music in clien/server
+
+
+
+2015-Dec-15
+===================
+1. Load last country change from prv_Country to GetLastLanguage
+2. GetAlbumWalmart seem not use
+3. GetTrackPath adding to cLanguage
+4. SetAlbumField adding to cLanguage
+5. GetTrackFields modifying completely
+6. GetStreamPath not yet implement
+7. AlbumByDirector completed			20151219
+8. getTrackAvailables completed
+9.SaveAlbumDirectory completed
+10. GetTopAlbum: Pending
+11. AlbumByRating: Pending		
+12. Working with searchTrack:,,,  working
+13. SearchArtist	pending..
+
+AWS:
+
+http://stackoverflow.com/questions/20112354/accessing-aws-s3-using-aws-sdk-for-javascript
+
+S
+
+
+Error on load albuminfo				//working properly
+
+SetAvatoSetting when browsing available, error  when browsing available and not available
